@@ -1,0 +1,1781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Planora — Privacy, Terms & Account Deletion</title>
+
+<meta
+  name="description"
+  content="Official Planora Legal Center — Privacy Policy, Terms & Conditions, Account Deletion and Support."
+>
+
+<meta
+  name="keywords"
+  content="Planora, Privacy Policy, Terms and Conditions, Account Deletion, Productivity App, Tasks, Notes, Calendar"
+>
+
+<meta name="theme-color" content="#2196F3">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+  rel="stylesheet"
+>
+
+<style>
+
+/* =========================================================
+   PLANORA LEGAL CENTER — 2026
+   ========================================================= */
+
+:root {
+  --primary: #2196F3;
+  --primary-dark: #1976D2;
+  --primary-soft: #E3F2FD;
+
+  --bg: #F5FAFE;
+  --surface: rgba(255,255,255,0.82);
+  --surface-solid: #FFFFFF;
+
+  --text: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+
+  --border: rgba(15,23,42,0.08);
+
+  --danger: #DC2626;
+  --danger-soft: #FEF2F2;
+
+  --success: #16A34A;
+  --success-soft: #F0FDF4;
+
+  --shadow-sm:
+    0 8px 30px rgba(15,23,42,0.06);
+
+  --shadow-lg:
+    0 24px 70px rgba(15,23,42,0.10);
+
+  --radius-lg: 28px;
+  --radius-md: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+
+  background:
+    radial-gradient(
+      circle at 10% 10%,
+      rgba(33,150,243,0.12),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      rgba(25,118,210,0.10),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      #F5FAFE,
+      #FFFFFF
+    );
+
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+/* =========================================================
+   CONTAINER
+   ========================================================= */
+
+.container {
+  width: min(1120px, calc(100% - 32px));
+  margin: auto;
+}
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+.nav-wrapper {
+  position: sticky;
+  top: 16px;
+  z-index: 1000;
+
+  padding-top: 16px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding: 14px 18px;
+
+  background: rgba(255,255,255,0.78);
+
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+
+  border: 1px solid rgba(255,255,255,0.8);
+
+  border-radius: 22px;
+
+  box-shadow: var(--shadow-sm);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-size: 20px;
+  font-weight: 800;
+
+  color: var(--text);
+
+  text-decoration: none;
+}
+
+.logo-box {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #42A5F5,
+      #1976D2
+    );
+
+  color: white;
+
+  font-size: 21px;
+  font-weight: 800;
+
+  box-shadow:
+    0 8px 20px rgba(33,150,243,0.25);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-links a {
+  text-decoration: none;
+
+  color: var(--text-secondary);
+
+  font-size: 14px;
+  font-weight: 600;
+
+  padding: 9px 12px;
+
+  border-radius: 10px;
+
+  transition: 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--primary-dark);
+  background: var(--primary-soft);
+}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero {
+  text-align: center;
+
+  padding:
+    100px
+    20px
+    70px;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px 14px;
+
+  border-radius: 999px;
+
+  background: var(--primary-soft);
+  color: var(--primary-dark);
+
+  font-size: 13px;
+  font-weight: 700;
+
+  margin-bottom: 22px;
+}
+
+.hero h1 {
+  font-size: clamp(42px, 7vw, 76px);
+
+  line-height: 1.05;
+
+  letter-spacing: -0.045em;
+
+  font-weight: 800;
+
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: var(--primary);
+}
+
+.hero p {
+  max-width: 720px;
+
+  margin: auto;
+
+  color: var(--text-secondary);
+
+  font-size: 18px;
+
+  line-height: 1.8;
+}
+
+.hero-meta {
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 28px;
+}
+
+.meta {
+  padding: 8px 14px;
+
+  border-radius: 999px;
+
+  background: rgba(255,255,255,0.85);
+
+  border: 1px solid var(--border);
+
+  color: var(--text-muted);
+
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+/* =========================================================
+   QUICK LINKS
+   ========================================================= */
+
+.quick-links {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 18px;
+
+  margin-bottom: 60px;
+}
+
+.quick-card {
+  text-decoration: none;
+
+  background: var(--surface);
+
+  backdrop-filter: blur(18px);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius-md);
+
+  padding: 25px;
+
+  box-shadow: var(--shadow-sm);
+
+  transition: 0.25s ease;
+}
+
+.quick-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow: var(--shadow-lg);
+}
+
+.quick-icon {
+  width: 46px;
+  height: 46px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background: var(--primary-soft);
+
+  font-size: 20px;
+
+  margin-bottom: 15px;
+}
+
+.quick-card h3 {
+  color: var(--text);
+
+  font-size: 17px;
+
+  margin-bottom: 6px;
+}
+
+.quick-card p {
+  color: var(--text-muted);
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+/* =========================================================
+   SECTION
+   ========================================================= */
+
+.section {
+  scroll-margin-top: 110px;
+
+  margin-bottom: 35px;
+}
+
+.card {
+  background: var(--surface);
+
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius-lg);
+
+  padding: clamp(25px, 5vw, 45px);
+
+  box-shadow: var(--shadow-lg);
+}
+
+.section-header {
+  margin-bottom: 28px;
+}
+
+.section-label {
+  display: inline-block;
+
+  color: var(--primary-dark);
+
+  background: var(--primary-soft);
+
+  padding: 7px 12px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.08em;
+
+  margin-bottom: 13px;
+}
+
+h2 {
+  font-size: clamp(28px, 5vw, 38px);
+
+  line-height: 1.2;
+
+  letter-spacing: -0.025em;
+
+  margin-bottom: 10px;
+}
+
+.section-description {
+  color: var(--text-secondary);
+
+  font-size: 16px;
+
+  max-width: 760px;
+}
+
+/* =========================================================
+   CONTENT
+   ========================================================= */
+
+.content-block {
+  margin-top: 30px;
+}
+
+.content-block h3 {
+  font-size: 20px;
+
+  margin-bottom: 12px;
+
+  color: var(--text);
+}
+
+p {
+  color: var(--text-secondary);
+
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 22px;
+
+  margin-bottom: 20px;
+}
+
+li {
+  color: var(--text-secondary);
+
+  margin-bottom: 10px;
+}
+
+/* =========================================================
+   INFO BOX
+   ========================================================= */
+
+.info-box {
+  margin-top: 24px;
+
+  padding: 20px;
+
+  border-radius: 16px;
+
+  background: #F8FAFC;
+
+  border: 1px solid var(--border);
+}
+
+.info-box strong {
+  color: var(--text);
+}
+
+/* =========================================================
+   DELETE ACCOUNT
+   ========================================================= */
+
+.delete-card {
+  border-color: rgba(220,38,38,0.15);
+}
+
+.delete-banner {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 15px;
+
+  padding: 20px;
+
+  margin-bottom: 25px;
+
+  border-radius: 18px;
+
+  background: var(--danger-soft);
+
+  border: 1px solid rgba(220,38,38,0.12);
+}
+
+.delete-icon {
+  min-width: 46px;
+  height: 46px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background: #FEE2E2;
+
+  font-size: 20px;
+}
+
+.delete-banner strong {
+  display: block;
+
+  color: #991B1B;
+
+  margin-bottom: 4px;
+}
+
+.delete-banner span {
+  color: #7F1D1D;
+
+  font-size: 14px;
+}
+
+.steps {
+  display: grid;
+
+  gap: 12px;
+
+  margin-top: 20px;
+}
+
+.step {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 14px;
+
+  padding: 16px;
+
+  border-radius: 16px;
+
+  background: #FFFFFF;
+
+  border: 1px solid var(--border);
+}
+
+.step-number {
+  min-width: 32px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: var(--primary-soft);
+
+  color: var(--primary-dark);
+
+  font-size: 13px;
+
+  font-weight: 800;
+}
+
+.step strong {
+  display: block;
+
+  margin-bottom: 3px;
+}
+
+.step p {
+  margin: 0;
+
+  font-size: 14px;
+}
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+
+.contact-box {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding: 24px;
+
+  border-radius: 18px;
+
+  background: var(--primary-soft);
+
+  border: 1px solid rgba(33,150,243,0.12);
+}
+
+.contact-email {
+  display: inline-flex;
+
+  align-items: center;
+
+  padding: 12px 18px;
+
+  border-radius: 12px;
+
+  background: white;
+
+  color: var(--primary-dark);
+
+  text-decoration: none;
+
+  font-weight: 700;
+
+  box-shadow: 0 5px 18px rgba(33,150,243,0.10);
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer {
+  text-align: center;
+
+  padding: 55px 20px 35px;
+
+  color: var(--text-muted);
+}
+
+.footer-logo {
+  font-weight: 800;
+
+  font-size: 18px;
+
+  color: var(--text);
+
+  margin-bottom: 8px;
+}
+
+.footer p {
+  margin: 5px 0;
+
+  font-size: 13px;
+}
+
+.footer-links {
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 16px;
+
+  margin: 15px 0;
+}
+
+.footer-links a {
+  color: var(--text-muted);
+
+  text-decoration: none;
+
+  font-size: 13px;
+}
+
+.footer-links a:hover {
+  color: var(--primary-dark);
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+  .nav {
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  .quick-links {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-box {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+}
+
+@media (max-width: 520px) {
+
+  .container {
+    width: min(100% - 20px, 1120px);
+  }
+
+  .nav-wrapper {
+    top: 8px;
+    padding-top: 8px;
+  }
+
+  .nav {
+    border-radius: 18px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+
+    padding: 7px 8px;
+  }
+
+  .hero {
+    padding-top: 75px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .card {
+    border-radius: 22px;
+  }
+
+}
+
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+    --bg: #0B1220;
+
+    --surface: rgba(15,23,42,0.82);
+    --surface-solid: #0F172A;
+
+    --text: #F8FAFC;
+    --text-secondary: #CBD5E1;
+    --text-muted: #94A3B8;
+
+    --border: rgba(255,255,255,0.08);
+
+    --primary-soft: rgba(33,150,243,0.14);
+  }
+
+  body {
+    background:
+      radial-gradient(
+        circle at 10% 10%,
+        rgba(33,150,243,0.14),
+        transparent 30%
+      ),
+      radial-gradient(
+        circle at 90% 20%,
+        rgba(25,118,210,0.10),
+        transparent 30%
+      ),
+      #0B1220;
+  }
+
+  .nav {
+    background: rgba(15,23,42,0.82);
+  }
+
+  .logo {
+    color: var(--text);
+  }
+
+  .nav-links a {
+    color: var(--text-secondary);
+  }
+
+  .meta {
+    background: rgba(15,23,42,0.8);
+  }
+
+  .info-box {
+    background: rgba(15,23,42,0.65);
+  }
+
+  .step {
+    background: rgba(15,23,42,0.65);
+  }
+
+  .contact-box {
+    background: rgba(33,150,243,0.10);
+  }
+
+  .contact-email {
+    background: #0F172A;
+  }
+
+  .delete-banner {
+    background: rgba(127,29,29,0.18);
+  }
+
+  .delete-banner strong {
+    color: #FCA5A5;
+  }
+
+  .delete-banner span {
+    color: #FECACA;
+  }
+
+  .delete-icon {
+    background: rgba(220,38,38,0.16);
+  }
+
+  .footer-logo {
+    color: var(--text);
+  }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- =====================================================
+     NAVIGATION
+     ===================================================== -->
+
+<div class="nav-wrapper">
+
+<nav class="nav">
+
+<a href="#top" class="logo">
+
+<div class="logo-box">
+P
+</div>
+
+Planora
+
+</a>
+
+<div class="nav-links">
+
+<a href="#privacy">
+Privacy
+</a>
+
+<a href="#terms">
+Terms
+</a>
+
+<a href="#delete-account">
+Delete Account
+</a>
+
+<a href="#contact">
+Contact
+</a>
+
+</div>
+
+</nav>
+
+</div>
+
+
+<!-- =====================================================
+     HERO
+     ===================================================== -->
+
+<header id="top" class="hero">
+
+<div class="hero-badge">
+✦ Official Planora Legal Center
+</div>
+
+<h1>
+Planora <span>Legal Center</span>
+</h1>
+
+<p>
+Privacy, Terms, Account Deletion and support information
+for the Planora productivity application.
+</p>
+
+<div class="hero-meta">
+
+<div class="meta">
+Android App
+</div>
+
+<div class="meta">
+Version 1.0.8
+</div>
+
+<div class="meta">
+Updated September 2026
+</div>
+
+</div>
+
+</header>
+
+
+<!-- =====================================================
+     QUICK LINKS
+     ===================================================== -->
+
+<section class="quick-links">
+
+<a href="#privacy" class="quick-card">
+
+<div class="quick-icon">
+🔐
+</div>
+
+<h3>
+Privacy Policy
+</h3>
+
+<p>
+Learn how Planora handles information, local data,
+authentication and app services.
+</p>
+
+</a>
+
+
+<a href="#terms" class="quick-card">
+
+<div class="quick-icon">
+📄
+</div>
+
+<h3>
+Terms & Conditions
+</h3>
+
+<p>
+Rules and conditions governing the use of Planora.
+</p>
+
+</a>
+
+
+<a href="#delete-account" class="quick-card">
+
+<div class="quick-icon">
+🗑️
+</div>
+
+<h3>
+Account Deletion
+</h3>
+
+<p>
+Learn how to permanently delete your Planora account.
+</p>
+
+</a>
+
+</section>
+
+
+<!-- =====================================================
+     PRIVACY POLICY
+     ===================================================== -->
+
+<section id="privacy" class="section">
+
+<div class="card">
+
+<div class="section-header">
+
+<div class="section-label">
+Privacy
+</div>
+
+<h2>
+Privacy Policy
+</h2>
+
+<p class="section-description">
+Your privacy is important to us. Planora is designed to help
+users manage tasks, notes, reminders and schedules securely.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+1. Information We Handle
+</h3>
+
+<p>
+Planora is designed primarily as a productivity application.
+Tasks, notes, calendar information and related productivity
+content are primarily stored locally on your device according
+to the current application architecture.
+</p>
+
+<p>
+When you create or use an authenticated account, Planora may
+process account information required to provide authentication
+and account-related functionality.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+2. Authentication
+</h3>
+
+<p>
+Planora currently supports account authentication using
+Email/Password, Google Sign-In and Anonymous/Guest
+authentication through Firebase Authentication.
+</p>
+
+<ul>
+
+<li>
+Email/Password accounts may include the user's email address
+and profile information provided during account setup.
+</li>
+
+<li>
+Google Sign-In may provide basic profile information such as
+name, email address and profile photo where available.
+</li>
+
+<li>
+Anonymous/Guest accounts use an anonymous Firebase identity
+and may use a locally generated Planora guest name.
+</li>
+
+</ul>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+3. Local App Data
+</h3>
+
+<p>
+Planora uses local storage for application functionality.
+This may include tasks, notes, calendar information,
+settings and other locally stored productivity data.
+</p>
+
+<p>
+Users are responsible for maintaining backups of information
+they consider important.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+4. Notifications
+</h3>
+
+<p>
+Planora may request notification permission to provide
+reminders and productivity notifications. Notification
+permission can be managed through Android device settings
+and the application's available notification controls.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+5. Analytics and Platform Services
+</h3>
+
+<p>
+Limited analytics and platform services may be used to
+understand application performance, reliability and usage.
+The specific services enabled may change as the application
+develops.
+</p>
+
+<p>
+Planora does not sell personal information to third parties.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+6. Data Security
+</h3>
+
+<p>
+Reasonable technical and organizational measures are used
+to protect information handled by Planora. However, no
+electronic storage or transmission system can be guaranteed
+to be completely secure.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+7. Account Deletion
+</h3>
+
+<p>
+Users with a Planora account can initiate account deletion
+from within the application through the account settings.
+Planora also provides an external account deletion resource
+through this Legal Center.
+</p>
+
+<p>
+When an account deletion request is completed, the associated
+account information is deleted as described in the application's
+deletion flow and applicable service requirements.
+</p>
+
+<p>
+Certain information may be retained where retention is
+required or permitted for legitimate legal, security,
+fraud-prevention or regulatory purposes.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+8. Changes to this Privacy Policy
+</h3>
+
+<p>
+This Privacy Policy may be updated when Planora's features,
+services or legal requirements change. The updated version
+will be published on this page with a revised effective date.
+</p>
+
+</div>
+
+
+<div class="info-box">
+
+<strong>
+Effective date:
+</strong>
+
+September 2026
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     TERMS
+     ===================================================== -->
+
+<section id="terms" class="section">
+
+<div class="card">
+
+<div class="section-header">
+
+<div class="section-label">
+Terms
+</div>
+
+<h2>
+Terms & Conditions
+</h2>
+
+<p class="section-description">
+These Terms govern your use of the Planora productivity
+application.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+1. Acceptance
+</h3>
+
+<p>
+By downloading, installing or using Planora, you acknowledge
+that you have read and agree to these Terms & Conditions.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+2. Intended Use
+</h3>
+
+<p>
+Planora is intended for productivity, planning, scheduling,
+task management, note-taking and personal organization.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+3. User Responsibilities
+</h3>
+
+<ul>
+
+<li>
+Users are responsible for the accuracy and security of
+information entered into the application.
+</li>
+
+<li>
+Users are responsible for maintaining backups of important
+information.
+</li>
+
+<li>
+Users must not misuse, abuse, reverse engineer or attempt
+to compromise the application or its supporting services.
+</li>
+
+<li>
+Users must not use Planora for unlawful purposes.
+</li>
+
+</ul>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+4. Account Security
+</h3>
+
+<p>
+Users are responsible for maintaining access to their
+authentication credentials and account. If you believe
+your account has been compromised, you should take
+appropriate action to secure or delete the account.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+5. Application Changes
+</h3>
+
+<p>
+Features may be modified, improved, replaced or discontinued
+as Planora develops. Changes may be required for security,
+technical, legal or product reasons.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+6. Availability
+</h3>
+
+<p>
+Planora is provided on an "as is" and "as available" basis
+to the extent permitted by applicable law. We do not
+guarantee that the application will always be uninterrupted,
+error-free or available on every device.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+7. Data and Information
+</h3>
+
+<p>
+Users are responsible for maintaining appropriate backups
+of important information. Sensora Labs shall not be liable
+for indirect losses or data loss resulting from circumstances
+outside reasonable control, to the extent permitted by law.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+8. Termination
+</h3>
+
+<p>
+Users may stop using Planora and may delete their account
+through the available account deletion process.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+9. Changes to These Terms
+</h3>
+
+<p>
+These Terms may be updated when required by changes to
+Planora, applicable law, security requirements or business
+operations. Continued use of the application after an
+updated version is published constitutes acceptance of
+the updated Terms to the extent permitted by law.
+</p>
+
+</div>
+
+
+<div class="info-box">
+
+<strong>
+Effective date:
+</strong>
+
+September 2026
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     ACCOUNT DELETION
+     ===================================================== -->
+
+<section id="delete-account" class="section">
+
+<div class="card delete-card">
+
+<div class="section-header">
+
+<div class="section-label">
+Account Control
+</div>
+
+<h2>
+Delete Your Planora Account
+</h2>
+
+<p class="section-description">
+This page explains how Planora users can request deletion
+of their account and associated account information.
+</p>
+
+</div>
+
+
+<div class="delete-banner">
+
+<div class="delete-icon">
+⚠
+</div>
+
+<div>
+
+<strong>
+Account deletion is permanent.
+</strong>
+
+<span>
+Once an account is successfully deleted, the account cannot
+be restored through the normal sign-in process.
+</span>
+
+</div>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+Delete from the Planora App
+</h3>
+
+<p>
+If you can access your Planora account, the primary deletion
+path is available directly inside the application:
+</p>
+
+
+<div class="steps">
+
+<div class="step">
+
+<div class="step-number">
+1
+</div>
+
+<div>
+
+<strong>
+Open Planora
+</strong>
+
+<p>
+Launch the Planora application and sign in to your account.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="step">
+
+<div class="step-number">
+2
+</div>
+
+<div>
+
+<strong>
+Open Settings
+</strong>
+
+<p>
+Go to the Settings section and open your account/profile area.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="step">
+
+<div class="step-number">
+3
+</div>
+
+<div>
+
+<strong>
+Choose Delete Account
+</strong>
+
+<p>
+Select the Delete Account option and review the confirmation
+message.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="step">
+
+<div class="step-number">
+4
+</div>
+
+<div>
+
+<strong>
+Confirm Deletion
+</strong>
+
+<p>
+Confirm the deletion request. Authentication may be required
+again for security-sensitive account deletion operations.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="step">
+
+<div class="step-number">
+5
+</div>
+
+<div>
+
+<strong>
+Account Deletion
+</strong>
+
+<p>
+After successful verification, the Planora Firebase
+authentication account is deleted and the user is returned
+to the authentication screen.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+Supported Account Types
+</h3>
+
+<ul>
+
+<li>
+Email/Password accounts
+</li>
+
+<li>
+Google accounts
+</li>
+
+<li>
+Anonymous/Guest accounts
+</li>
+
+</ul>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+What Happens After Deletion?
+</h3>
+
+<p>
+The Planora account associated with the deleted Firebase
+authentication identity is removed through the account
+deletion process.
+</p>
+
+<p>
+Account-specific profile/authentication information is
+removed according to the application's deletion flow.
+</p>
+
+<p>
+If additional cloud services or synchronized data are added
+to Planora in the future, the applicable deletion process
+and this policy will be updated accordingly.
+</p>
+
+</div>
+
+
+<div class="content-block">
+
+<h3>
+Need Help With Account Deletion?
+</h3>
+
+<p>
+If you cannot complete the account deletion process from
+inside the app, contact Planora Support using the email
+address below and include enough information for us to
+understand your request. Do not send your password or
+authentication credentials.
+</p>
+
+<a
+  class="contact-email"
+  href="mailto:planorasupport@gmail.com?subject=Planora%20Account%20Deletion%20Request"
+>
+Request Account Deletion
+</a>
+
+</div>
+
+
+<div class="info-box">
+
+<strong>
+Important:
+</strong>
+
+Planora may retain limited information where legally
+required or permitted for legitimate purposes such as
+security, fraud prevention or regulatory compliance.
+Any applicable retention will be described in the Privacy
+Policy.
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+     ===================================================== -->
+
+<section id="contact" class="section">
+
+<div class="card">
+
+<div class="section-header">
+
+<div class="section-label">
+Support
+</div>
+
+<h2>
+Contact Planora
+</h2>
+
+<p class="section-description">
+For support requests, bug reports, feedback, privacy
+questions or account deletion assistance, contact us.
+</p>
+
+</div>
+
+
+<div class="contact-box">
+
+<div>
+
+<strong>
+Planora Support
+</strong>
+
+<p style="margin:5px 0 0;">
+We will use the information you provide to handle
+your support request.
+</p>
+
+</div>
+
+<a
+  class="contact-email"
+  href="mailto:planorasupport@gmail.com"
+>
+planorasupport@gmail.com
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer class="footer">
+
+<div class="footer-logo">
+Planora
+</div>
+
+<p>
+Tasks · Notes · Calendar · Reminders
+</p>
+
+<div class="footer-links">
+
+<a href="#privacy">
+Privacy Policy
+</a>
+
+<a href="#terms">
+Terms & Conditions
+</a>
+
+<a href="#delete-account">
+Delete Account
+</a>
+
+<a href="#contact">
+Contact
+</a>
+
+</div>
+
+<p>
+© 2026 Planora. All Rights Reserved.
+</p>
+
+<p>
+Made with ❤️ by Sensora Labs
+</p>
+
+</footer>
+
+</div>
+
+</body>
+</html>
