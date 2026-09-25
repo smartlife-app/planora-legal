@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Planora — Privacy, Terms & Account Deletion</title>
@@ -29,10 +28,6 @@
 
 <style>
 
-/* =========================================================
-   PLANORA LEGAL CENTER — 2026
-   ========================================================= */
-
 :root {
   --primary: #2196F3;
   --primary-dark: #1976D2;
@@ -40,7 +35,6 @@
 
   --bg: #F5FAFE;
   --surface: rgba(255,255,255,0.82);
-  --surface-solid: #FFFFFF;
 
   --text: #0F172A;
   --text-secondary: #475569;
@@ -50,9 +44,6 @@
 
   --danger: #DC2626;
   --danger-soft: #FEF2F2;
-
-  --success: #16A34A;
-  --success-soft: #F0FDF4;
 
   --shadow-sm:
     0 8px 30px rgba(15,23,42,0.06);
@@ -99,24 +90,17 @@ body {
   min-height: 100vh;
 }
 
-/* =========================================================
-   CONTAINER
-   ========================================================= */
-
 .container {
   width: min(1120px, calc(100% - 32px));
   margin: auto;
 }
 
-/* =========================================================
-   NAVIGATION
-   ========================================================= */
+/* NAV */
 
 .nav-wrapper {
   position: sticky;
   top: 16px;
   z-index: 1000;
-
   padding-top: 16px;
 }
 
@@ -124,7 +108,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   gap: 20px;
 
   padding: 14px 18px;
@@ -150,7 +133,6 @@ body {
   font-weight: 800;
 
   color: var(--text);
-
   text-decoration: none;
 }
 
@@ -209,17 +191,11 @@ body {
   background: var(--primary-soft);
 }
 
-/* =========================================================
-   HERO
-   ========================================================= */
+/* HERO */
 
 .hero {
   text-align: center;
-
-  padding:
-    100px
-    20px
-    70px;
+  padding: 100px 20px 70px;
 }
 
 .hero-badge {
@@ -296,15 +272,12 @@ body {
   font-weight: 600;
 }
 
-/* =========================================================
-   QUICK LINKS
-   ========================================================= */
+/* QUICK LINKS */
 
 .quick-links {
   display: grid;
 
-  grid-template-columns:
-    repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 
   gap: 18px;
 
@@ -331,7 +304,6 @@ body {
 
 .quick-card:hover {
   transform: translateY(-4px);
-
   box-shadow: var(--shadow-lg);
 }
 
@@ -368,13 +340,10 @@ body {
   line-height: 1.6;
 }
 
-/* =========================================================
-   SECTION
-   ========================================================= */
+/* SECTION */
 
 .section {
   scroll-margin-top: 110px;
-
   margin-bottom: 35px;
 }
 
@@ -437,9 +406,7 @@ h2 {
   max-width: 760px;
 }
 
-/* =========================================================
-   CONTENT
-   ========================================================= */
+/* CONTENT */
 
 .content-block {
   margin-top: 30px;
@@ -447,33 +414,26 @@ h2 {
 
 .content-block h3 {
   font-size: 20px;
-
   margin-bottom: 12px;
-
   color: var(--text);
 }
 
 p {
   color: var(--text-secondary);
-
   margin-bottom: 15px;
 }
 
 ul {
   padding-left: 22px;
-
   margin-bottom: 20px;
 }
 
 li {
   color: var(--text-secondary);
-
   margin-bottom: 10px;
 }
 
-/* =========================================================
-   INFO BOX
-   ========================================================= */
+/* INFO */
 
 .info-box {
   margin-top: 24px;
@@ -491,9 +451,7 @@ li {
   color: var(--text);
 }
 
-/* =========================================================
-   DELETE ACCOUNT
-   ========================================================= */
+/* DELETE ACCOUNT */
 
 .delete-card {
   border-color: rgba(220,38,38,0.15);
@@ -534,23 +492,18 @@ li {
 
 .delete-banner strong {
   display: block;
-
   color: #991B1B;
-
   margin-bottom: 4px;
 }
 
 .delete-banner span {
   color: #7F1D1D;
-
   font-size: 14px;
 }
 
 .steps {
   display: grid;
-
   gap: 12px;
-
   margin-top: 20px;
 }
 
@@ -591,19 +544,15 @@ li {
 
 .step strong {
   display: block;
-
   margin-bottom: 3px;
 }
 
 .step p {
   margin: 0;
-
   font-size: 14px;
 }
 
-/* =========================================================
-   CONTACT
-   ========================================================= */
+/* CONTACT */
 
 .contact-box {
   display: flex;
@@ -640,12 +589,11 @@ li {
 
   font-weight: 700;
 
-  box-shadow: 0 5px 18px rgba(33,150,243,0.10);
+  box-shadow:
+    0 5px 18px rgba(33,150,243,0.10);
 }
 
-/* =========================================================
-   FOOTER
-   ========================================================= */
+/* FOOTER */
 
 .footer {
   text-align: center;
@@ -667,7 +615,6 @@ li {
 
 .footer p {
   margin: 5px 0;
-
   font-size: 13px;
 }
 
@@ -695,15 +642,12 @@ li {
   color: var(--primary-dark);
 }
 
-/* =========================================================
-   RESPONSIVE
-   ========================================================= */
+/* RESPONSIVE */
 
 @media (max-width: 800px) {
 
   .nav {
     flex-direction: column;
-
     align-items: stretch;
   }
 
@@ -721,7 +665,6 @@ li {
 
   .contact-box {
     flex-direction: column;
-
     align-items: flex-start;
   }
 
@@ -744,7 +687,6 @@ li {
 
   .nav-links a {
     font-size: 12px;
-
     padding: 7px 8px;
   }
 
@@ -762,17 +704,12 @@ li {
 
 }
 
-/* =========================================================
-   DARK MODE
-   ========================================================= */
+/* DARK MODE */
 
 @media (prefers-color-scheme: dark) {
 
   :root {
-    --bg: #0B1220;
-
     --surface: rgba(15,23,42,0.82);
-    --surface-solid: #0F172A;
 
     --text: #F8FAFC;
     --text-secondary: #CBD5E1;
@@ -859,9 +796,7 @@ li {
 
 <div class="container">
 
-<!-- =====================================================
-     NAVIGATION
-     ===================================================== -->
+<!-- NAVIGATION -->
 
 <div class="nav-wrapper">
 
@@ -902,9 +837,7 @@ Contact
 </div>
 
 
-<!-- =====================================================
-     HERO
-     ===================================================== -->
+<!-- HERO -->
 
 <header id="top" class="hero">
 
@@ -928,7 +861,7 @@ Android App
 </div>
 
 <div class="meta">
-Version 1.0.8
+Version 1.0.10
 </div>
 
 <div class="meta">
@@ -940,9 +873,7 @@ Updated September 2026
 </header>
 
 
-<!-- =====================================================
-     QUICK LINKS
-     ===================================================== -->
+<!-- QUICK LINKS -->
 
 <section class="quick-links">
 
@@ -1000,9 +931,7 @@ Learn how to permanently delete your Planora account.
 </section>
 
 
-<!-- =====================================================
-     PRIVACY POLICY
-     ===================================================== -->
+<!-- PRIVACY POLICY -->
 
 <section id="privacy" class="section">
 
@@ -1212,9 +1141,7 @@ September 2026
 </section>
 
 
-<!-- =====================================================
-     TERMS
-     ===================================================== -->
+<!-- TERMS -->
 
 <section id="terms" class="section">
 
@@ -1384,9 +1311,7 @@ through the available account deletion process.
 <p>
 These Terms may be updated when required by changes to
 Planora, applicable law, security requirements or business
-operations. Continued use of the application after an
-updated version is published constitutes acceptance of
-the updated Terms to the extent permitted by law.
+operations.
 </p>
 
 </div>
@@ -1407,9 +1332,7 @@ September 2026
 </section>
 
 
-<!-- =====================================================
-     ACCOUNT DELETION
-     ===================================================== -->
+<!-- ACCOUNT DELETION -->
 
 <section id="delete-account" class="section">
 
@@ -1503,7 +1426,7 @@ Open Settings
 </strong>
 
 <p>
-Go to the Settings section and open your account/profile area.
+Go to Settings and open your account/profile section.
 </p>
 
 </div>
@@ -1524,8 +1447,7 @@ Choose Delete Account
 </strong>
 
 <p>
-Select the Delete Account option and review the confirmation
-message.
+Select Delete Account and carefully review the confirmation.
 </p>
 
 </div>
@@ -1546,8 +1468,8 @@ Confirm Deletion
 </strong>
 
 <p>
-Confirm the deletion request. Authentication may be required
-again for security-sensitive account deletion operations.
+Confirm the deletion request. Additional authentication
+may be required for security-sensitive account deletion.
 </p>
 
 </div>
@@ -1564,13 +1486,13 @@ again for security-sensitive account deletion operations.
 <div>
 
 <strong>
-Account Deletion
+Account Deleted
 </strong>
 
 <p>
-After successful verification, the Planora Firebase
-authentication account is deleted and the user is returned
-to the authentication screen.
+After successful verification, the Firebase authentication
+account is deleted and the user is returned to the
+authentication screen.
 </p>
 
 </div>
@@ -1590,17 +1512,11 @@ Supported Account Types
 
 <ul>
 
-<li>
-Email/Password accounts
-</li>
+<li>Email/Password accounts</li>
 
-<li>
-Google accounts
-</li>
+<li>Google accounts</li>
 
-<li>
-Anonymous/Guest accounts
-</li>
+<li>Anonymous/Guest accounts</li>
 
 </ul>
 
@@ -1620,7 +1536,7 @@ deletion process.
 </p>
 
 <p>
-Account-specific profile/authentication information is
+Account-specific profile and authentication information is
 removed according to the application's deletion flow.
 </p>
 
@@ -1636,14 +1552,12 @@ and this policy will be updated accordingly.
 <div class="content-block">
 
 <h3>
-Need Help With Account Deletion?
+Need Help?
 </h3>
 
 <p>
-If you cannot complete the account deletion process from
-inside the app, contact Planora Support using the email
-address below and include enough information for us to
-understand your request. Do not send your password or
+If you cannot complete account deletion inside the app,
+contact Planora Support. Do not send your password or
 authentication credentials.
 </p>
 
@@ -1666,8 +1580,6 @@ Important:
 Planora may retain limited information where legally
 required or permitted for legitimate purposes such as
 security, fraud prevention or regulatory compliance.
-Any applicable retention will be described in the Privacy
-Policy.
 
 </div>
 
@@ -1676,9 +1588,7 @@ Policy.
 </section>
 
 
-<!-- =====================================================
-     CONTACT
-     ===================================================== -->
+<!-- CONTACT -->
 
 <section id="contact" class="section">
 
@@ -1711,8 +1621,7 @@ Planora Support
 </strong>
 
 <p style="margin:5px 0 0;">
-We will use the information you provide to handle
-your support request.
+Support for Planora users and account requests.
 </p>
 
 </div>
@@ -1731,9 +1640,7 @@ planorasupport@gmail.com
 </section>
 
 
-<!-- =====================================================
-     FOOTER
-     ===================================================== -->
+<!-- FOOTER -->
 
 <footer class="footer">
 
@@ -1764,6 +1671,10 @@ Contact
 </a>
 
 </div>
+
+<p>
+Version 1.0.10
+</p>
 
 <p>
 © 2026 Planora. All Rights Reserved.
